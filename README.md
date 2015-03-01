@@ -22,14 +22,14 @@ You can use $def instead of $set but $def not return any value.
 Get the color from the variable
 
     color: $get(mycolor); 
-    color: $color(mycolor); 
+    color: $change(mycolor);
 
 Get it and make it lighten or darken by +10, range 0..100
 
     color: $lighten(mycolor, 10); 
-    color: $color(mycolor, 10); make it lighten +10, rabge 100..0..100
+    color: $change(mycolor, 10); make it lighten +10, rabge 100..0..100
     color: $darken(mycolor, 10); make it darken +10, range 0..100
-    color: $color(mycolor, -10); range 100..0..100
+    color: $change(mycolor, -10); range 100..0..100
 
 Mix two of color, the range 100..0..100, 0 meant 50% from mycolor1 and 50% from mycolor2
 
