@@ -1,6 +1,8 @@
 CSS Macros
 ----------
 
+**Due CSS 3, there is no need to this project**
+
 CSS Macros, small engine macros.php, so you can take the theme as good exapmple how to write css with macro.
 
 Commands and macros to change the CSS.
